@@ -1,0 +1,163 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOME GPT | Home</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+      }
+      a {
+        text-decoration: none;
+      }
+      .sign-up-text {
+        color: #10a37f;
+        text-decoration: none;
+      }
+      .or-text {
+        margin-top: 20px;
+        margin-bottom: 35px;
+      }
+      .button {
+        width: 300px;
+        padding: 12px 20px;
+        border-color: black;
+        border-width: 1px;
+        border-radius: 7px;
+        background-color: white;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        cursor: pointer;
+      }
+      .google-button:hover,
+      .microsoft-button,
+      .apple-button {
+        background-color: #10a37f;
+        color: white;
+      }
+      .google-button:hover {
+        background-color: #10a37f;
+        color: white;
+      }
+      .microsoft-button {
+        background-color: #10a37f;
+        color: white;
+      }
+      .apple-button {
+        background-color: #10a37f;
+        color: white;
+      }
+      #buttons-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+      .page-button-links {
+        color: #10a37f;
+      }
+      .page-button-links-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+      }
+      .google-image {
+        width: 20px;
+      }
+      .microsoft-image {
+        width: 20px;
+      }
+      .apple-image {
+        width: 15px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 100px;
+      }
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      input {
+        width: 300px;
+        padding: 15px;
+        border-color: #10a37f;
+        border-radius: 7px;
+        border: 1px solid #10a37f;
+      }
+      button {
+        width: 300px;
+        background-color: #10a37f;
+        border-radius: 7px;
+        border: none;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body style="width: 100%; margin: 75px 0 0 0">
+    <div style="width: 100%; display: flex; justify-content: center">
+      <img
+        style="width: 50px; height: 50px; border-radius: 50%; margin: 0 auto"
+        src="/logo.png"
+        alt="DOME GPT logo"
+      />
+    </div>
+    <div class="container">
+      <h2>Welcome Back</h2>
+      <div class="form-container">
+        <form>
+          <input type="text" placeholder="Enter your email" />
+          <button type="submit">Continue</button>
+        </form>
+      </div>
+      <section>
+        <span>Don't have an account?</span>
+        <a href="chat.html" class="sign-up-text">sign up</a>
+      </section>
+      <span class="or-text">OR</span>
+      <div id="buttons-parent">
+        <a href="https://google.com">
+          <button class="button google-button">
+            <img
+              src="/img-3.jpg"
+              alt="Google icon image"
+              class="google-image"
+            />
+            <span>Continue with Google</span>
+          </button>
+        </a>
+        <a href="https://microsoft.com">
+          <button class="button microsoft-button">
+            <img
+              src="/img-2.jpg"
+              alt="Microsoft icon image"
+              class="microsoft-image"
+            />
+            <span>Continue with Microsoft</span>
+          </button>
+        </a>
+        <a href="https://apple.com">
+          <button class="button apple-button">
+            <img src="/img-1.jpg" alt="Apple icon image" class="apple-image" />
+            <span>Continue with Apple</span>
+          </button>
+        </a>
+      </div>
+      <div class="page-button-links-wrapper">
+        <a href="/chat.html" class="page-button-links">Terms of Use</a>
+        <span>|</span>
+        <a href="/chat.html" class="page-button-links">Privacy Policy</a>
+      </div>
+    </div>
+  </body>
+</html>
